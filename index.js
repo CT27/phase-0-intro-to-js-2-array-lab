@@ -36,15 +36,14 @@ function prependCat() {
 }
 prependCat();
 
+//8.
+function removeFirstCat() {
+  return cats.slice(1);
+}
+removeFirstCat();
+
+//9.
 function removeLastCat() {
-  copyOfCats.slice(4);
+  return cats.slice(0, -1);
 }
 removeLastCat();
-
-function removeFirstCat() {}
-
-console.log(cats);
-console.log(copyOfCats);
-console.log(appendCat());
-console.log(prependCat());
-console.log(removeLastCat());
